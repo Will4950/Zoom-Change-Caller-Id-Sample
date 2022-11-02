@@ -4,8 +4,8 @@ This is a sample app for a specific Zoom Phone Management use case.
 Changes all users' outbound callerId by site
 
 scopes:
-phone:read:admin
-phone:write:admin
+- phone:read:admin
+- phone:write:admin
 
 ### Setup
 ```bash
